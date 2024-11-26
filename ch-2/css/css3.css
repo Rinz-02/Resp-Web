@@ -1,0 +1,30 @@
+
+.main_cont{
+   width: 100%;
+}
+
+.web_cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.image > img{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(209, 207, 207) 1px;
+    border-radius: 5%;
+    box-shadow: 0 30px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.text{
+    width: 75%;
+}
+
+.text > p{
+    size: 60px;
+}
